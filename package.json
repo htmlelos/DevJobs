@@ -1,0 +1,39 @@
+{
+  "name": "devjobs",
+  "version": "0.0.1",
+  "description": "Portal DevJobs con NodeJs, Handlebars y Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htmlelos/DevJobs.git"
+  },
+  "keywords": [
+    "Node",
+    "Handlebars",
+    "Mongoose",
+    "Jobs"
+  ],
+  "author": "Lucero Sergio Alejandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htmlelos/DevJobs/issues"
+  },
+  "homepage": "https://github.com/htmlelos/DevJobs#readme",
+  "dependencies": {
+    "connect-mongo": "^4.4.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.12.13",
+    "shortid": "^2.2.16",
+    "slug": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
